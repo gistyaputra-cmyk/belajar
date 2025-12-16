@@ -1,0 +1,54 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starting Business - Digital Marketing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- LOGIN PAGE -->
+  <div class="container" id="loginPage">
+    <h1>Login Admin</h1>
+    <p>Masuk dulu sebelum sok jualan</p>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+    <p id="error"></p>
+  </div>
+
+  <!-- DASHBOARD PAGE -->
+  <div class="container hidden" id="dashboard">
+    <header>
+      <h1>Digital Marketing Starter</h1>
+      <button class="logout" onclick="logout()">Logout</button>
+    </header>
+
+    <section class="hero">
+      <h2>Grow Your Business Digitally</h2>
+      <p>Strategi digital marketing untuk UMKM & startup</p>
+    </section>
+
+    <section class="products">
+      <div class="card">
+        <h3>Social Media Marketing</h3>
+        <p>Kelola Instagram, TikTok, dan Facebook bisnis kamu</p>
+        <button>Beli Paket</button>
+      </div>
+      <div class="card">
+        <h3>SEO Optimization</h3>
+        <p>Bikin website kamu nongol di Google</p>
+        <button>Beli Paket</button>
+      </div>
+      <div class="card">
+        <h3>Ads Management</h3>
+        <p>Facebook Ads & Google Ads yang tepat sasaran</p>
+        <button>Beli Paket</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
